@@ -1,0 +1,61 @@
+.prosfores{
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 5rem 0rem;
+    padding-bottom: 20rem;
+}
+
+.prosfores__container{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.prosfores__text{
+    align-items: right;
+    margin: 2rem 0rem;
+}
+
+.prosfores__h2{
+    font-size: 1.61875rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+    color: inherit;
+    margin-right: 46rem;
+}
+
+.prosfores__span{
+display: inline-block;
+padding: .25em .4em;
+font-size: 26px;
+font-weight: 700;
+line-height: 1;
+text-align: center;
+white-space: nowrap;
+vertical-align: baseline;
+border-radius: 2px;
+background: #d1eedd;
+color: green;
+}
+
+.prosfores__row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:center;
+    grid-gap: 2rem;
+}
+
+.prosfores__h3{
+    text-align: left;
+    font-size: 1.00625rem;
+    margin-bottom: .25rem;
+font-family: inherit;
+font-weight: 700;
+line-height: 1.2;
+color: inherit;
+margin-top: 1rem;
+}

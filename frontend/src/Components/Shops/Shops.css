@@ -1,0 +1,170 @@
+.shops{
+    background-color: #f7f7f7;
+    height: 100%;
+}
+
+.shops__header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./ivan-torres-MQUqbmszGGM-unsplash.jpg");
+    width: 100%;
+    height: 35vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.shops__headerText{
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.shops__container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+}
+
+.shops__row{
+    background-color: white;
+    border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+box-shadow: none;
+padding: 16px 24px;
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+width: 100%;
+padding-right: 20rem;
+margin: 0.3rem 0rem;
+}
+
+.shops__rowContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    grid-gap: 1rem;
+}
+
+.shops__h3{
+    font-size: 1.00625rem;
+}
+
+.shops__span{
+    font-weight: 400;
+    font-size: 86%;
+    color: grey;
+}
+
+.shops__shops{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.13);
+    border-radius: .25rem;
+    background-color: #fff;
+    padding:1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    position: relative;
+    bottom: 1rem;
+}
+
+.shops__shops2{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.13);
+    border-radius: .25rem;
+    background-color: #fff;
+    padding:1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  
+}
+
+.shops__h6{
+    font-family: inherit;
+font-weight: 700;
+line-height: 1.2;
+font-size: 1.00625rem;
+color: black;
+text-align: left;
+padding: 1rem 0rem;
+}
+
+.shops__shopsImage{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.shops__shopsRow{
+    display: flex;
+    align-items: center;
+}
+
+.shops__shopsSpan{
+    padding-left: 1rem;
+}
+
+.shops__shopsColumn{
+    margin: 0.5rem 0rem;
+}
+
+.shops__searchContainer{
+    text-align: center;
+    position: relative;
+    bottom: 1rem;
+    
+}
+
+label{
+    padding-left: 1rem;
+}
+
+.shops__searchInput{
+    width: 100%;
+  
+    height: calc(2.40875rem + 2px);
+    padding: .57rem 1rem;
+        padding-top: 1.57rem;
+        padding-bottom: 1.57rem;
+        padding-left: 3rem;
+    font-size: .875rem;
+    line-height: 1.45;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #dfdfdf;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.shops__inputIcon{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: #9b9b9b ;
+}
+
+.shops__shopsIconImage{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    
+}
+
+.shops__shopsIcon{
+    position: absolute;
+    z-index: 1000;
+    margin-left: 0.5rem;
+    margin-top:5rem;
+}
+
+.shops__rowLeftSide{
+    position: relative;
+}
+
+.shops__link{
+    text-decoration: none;
+    color: black;
+}

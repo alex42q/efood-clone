@@ -1,0 +1,41 @@
+.nav__container{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
+
+.nav__rightSideUl{
+    display: flex;
+    align-items: center;
+}
+
+.nav__li{
+    list-style: none;
+    margin-left: 6rem;
+}
+
+.nav__link{
+    color: white;
+}
+
+.nav__span{
+    border: 1px solid white;
+    padding:0.5rem;
+    border-radius: 5px;
+    transition: 0.2s ease;
+}
+
+.nav__span:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.text{
+    transform: translate(100px);
+}
